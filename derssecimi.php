@@ -1,19 +1,25 @@
 <form action="derssecimi.php" method="POST">
 <table border="1" align="center">
-<th colspan="2">DERS SEC›M›</th>
+<th colspan="2">DERS SEC√ùM√ù</th>
 <tr>
 	<td colspan="2">
 		Ogr. No:
 		<?php
 		echo"<select name='no'>";
-			$dosya=fopen("bilgi.txt","r");
-			while (!feof($dosya))
-			{
-				$kaynak=fgets($dosya,256);
-				$kaynak=trim($kaynak);
-				$dizi=explode("-",$kaynak);
-				echo "<option>".$dizi[0];
-			}
+			
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		echo"</select>";
 		?>
 	</td>
@@ -64,8 +70,17 @@
 			{
 				$kredi="4";
 			}
-			$yazilacak=$_POST["no"]."-".$_POST["secim"]."-".$kredi."\n";
-			fputs($dosya,$yazilacak);
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			;
 		}
 	}
 ?>
